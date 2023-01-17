@@ -82,7 +82,7 @@ function App() {
               checked={todo.complete}
               type="checkbox"
             />
-            <span className={todoClasses.join("")}>{todo.text}</span>
+            <span className={todoClasses.join(" ")}>{todo.text}</span>
             <button
               onClick={(event) => {
                 handleTodoDelete(i);
